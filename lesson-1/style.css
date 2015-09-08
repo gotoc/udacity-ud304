@@ -1,11 +1,19 @@
+.app {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+.screenshot {
+  max-width: 460px;
+}
+
+
 .description {
   color: red;
   max-width: 705px;
 }
 
-.screenshot {
-  max-width: 460px;
-}
 
 /* outline border applied to every element
 ** on the page, to visualize the boxes
@@ -13,6 +21,7 @@
 * {
   outline: 1px solid red !important;
 }
+
 
 /* box-sizing definitions,
 ** for each web browser
